@@ -11,9 +11,11 @@ sudo ethtool ${drive} | grep Wake-on`
 
 # Send Magic Packet
 ## etherwake
+networkInterface = "en02"
+
 guide = [https://www.cyberciti.biz/tips/linux-send-wake-on-lan-wol-magic-packets.html]
 
-command = "sudo etherwake ${macAddress}"
+command = "sudo etherwake -i ${networkInterface} ${macAddress}"
 
 # Automating:
 guide = [https://danielpgross.github.io/friendly_neighbor/howto-sleep-wake-on-demand]
