@@ -1,6 +1,6 @@
 sch = [https://www.google.com/search?q=wake+on+lan+linux]
 
-wiki = [https://wiki.archlinux.org/title/Wake-on-LAN]
+wiki = [https://wiki.archlinux.org/title/Wake-on-LAN, https://help.ubuntu.com/community/WakeOnLan]
 
 # ethtool
 ## detect
