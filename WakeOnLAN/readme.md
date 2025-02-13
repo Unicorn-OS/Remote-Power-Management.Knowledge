@@ -11,7 +11,7 @@ sudo ethtool ${drive} | grep Wake-on`
 
 # Send Magic Packet
 ## etherwake
-https://www.cyberciti.biz/tips/linux-send-wake-on-lan-wol-magic-packets.html
+guide = [https://www.cyberciti.biz/tips/linux-send-wake-on-lan-wol-magic-packets.html]
 
 # Automating:
 guide = [https://danielpgross.github.io/friendly_neighbor/howto-sleep-wake-on-demand]
