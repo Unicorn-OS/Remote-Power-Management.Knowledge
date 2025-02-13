@@ -1,1 +1,3 @@
-# SSH.Knowledge
+# Remote-Power-Management.Knowledge
+- Suspend()
+- WakeOnLAN()
